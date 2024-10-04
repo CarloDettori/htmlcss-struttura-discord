@@ -98,7 +98,12 @@ ul {
     width: 531px;
     
 }
- 
+
+div>nav {
+    border-top: 1px solid #748bdb;
+    margin-c
+}
+
 .fit {
     width: 100%;
     height: 40px;
