@@ -1,80 +1,23 @@
-/* reset */
-
+/* reset__________________________________________________________________ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-li {
-    padding: 5px;
-}
+/* assets________________________________________________________________ */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;     /*aggiungere whitney, helvetica newe*/
+    font-family: Arial, Helvetica, sans-serif;/*whitney, helvetica newe*/
     color: #222629;
     background-color: lightgrey;
     
 }
 
-div {
-    padding: 10px;
+li, ul, div, section, nav, h1, h4, p, a, img {
+    padding: 5px;
 }
 
-section {
-    padding: 10px;
-}
-
-nav {
-    padding: 10px;
-}
-
-h1 {
-    padding: 10px;
-}
-
-p {
-    padding: 10px;
-}
-
-a {
-    padding: 10px;
-}
-
-img {
-    padding: 10px;
-}
-/* colors */
-/*
-light-grey         #828282
-dark-grey          #222629
-bright-blue        #255ce8
-tarnished-purple   #748bdb
-*/
-
-/* assets */
-.flexing {
-    display: flex;
-    align-items: center;
-}
-
-.spa-bet-flex {
-    justify-content: space-between;
-}
-
-.white-button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid white;
-    color: white;
-}
-
-.t-p-button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #748bdb;
-    color: #748bdb;
-}
 .debug {
     border: 1px solid red;
 }
@@ -96,8 +39,109 @@ ul {
 .img-widt {
     width: 60%;
 }
+#ita {
+    max-width: 2em;
+}
+
+.center-content {
+    place-content: center;
+
+}
+
+.backgrownd-tarnish-purple {
+    background-color: #748bdb;
+}
+
+.backgrownd-dark-grey {
+    background-color: #222629;
+}
+
+/*
+__________COLORS___________
+dark               #050505
+dark-grey          #222629
+bright-blue        #255ce8
+tarnished-purple   #748bdb
+*/
+
+/* text_______________________________________________________________ */
+.text-dark {
+    color: #050505
+}
+
+.text-white {
+    color: white;
+}
+
+.text-tarnished-purple {
+    color: #748bdb
+}
+
+h4 {
+    color: #748bdb;
+}
+
+h2 {
+    color: #748bdb;
+}
+
+.center-text {
+    text-align: center; 
+}
 
 .txt-widt {
     width: 40%;
+}
+
+/* buttons_______________________________________________________________ */
+/*
+__________COLORS___________
+dark-grey          #222629
+tarnished-purple   #748bdb
+*/
+
+.button {
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.white-button {
+    color: #222629;
+    background-color: white;
+}
+
+.dark-grey-button {
+    color: white;
+    background-color:#222629;
+}
+
+.tarnished-purple-button {
+    color: white;
+    background-color: #748bdb;
+}
+
+/* flexing_______________________________________________________________ */
+.column-flex {
+    flex-direction: column;
+}
+.flexing {
+    display: flex;
+    align-items: center;
+}
+
+.spa-bet-flex {
+    justify-content: space-between;
+}
+
+.fle-sta-flex {
+    align-items: flex-start;
+}
+
+.center-flex {
+    justify-content: center;
+}
+
+.row-rev-flex {
+    flex-direction: row-reverse;
 }
 
