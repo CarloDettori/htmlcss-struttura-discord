@@ -28,6 +28,22 @@ section {
 nav {
     padding: 10px;
 }
+
+h1 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+img {
+    padding: 10px;
+}
 /* colors */
 /*
 light-grey         #828282
@@ -76,3 +92,12 @@ tarnished-purple   #748bdb
 ul {
     list-style-type: none;
 }
+
+.img-widt {
+    width: 60%;
+}
+
+.txt-widt {
+    width: 40%;
+}
+
