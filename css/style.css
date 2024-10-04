@@ -1,5 +1,78 @@
+/* reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+li {
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;     /*aggiungere whitney, helvetica newe*/
+    color: #222629;
+    background-color: lightgrey;
+    
+}
+
+div {
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+/* colors */
+/*
+light-grey         #828282
+dark-grey          #222629
+bright-blue        #255ce8
+tarnished-purple   #748bdb
+*/
+
+/* assets */
+.flexing {
+    display: flex;
+    align-items: center;
+}
+
+.spa-bet-flex {
+    justify-content: space-between;
+}
+
+.white-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.t-p-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #748bdb;
+    color: #748bdb;
+}
+.debug {
+    border: 1px solid red;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
 }
