@@ -10,8 +10,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;/*whitney, helvetica newe*/
     color: #222629;
-    background-color: lightgrey;
-    
+    background-color: #f5f5f5;  
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+.gap {
+    gap: 10px;
 }
 
 li, ul, div, section, nav, h1, h4, p, a, img {
@@ -39,8 +46,17 @@ ul {
 .img-widt {
     width: 60%;
 }
+
+.txt-widt {
+    width: 40%;
+}
+
+.no-barr {
+    max-width: 100%;
+}
+
 #ita {
-    max-width: 2em;
+    max-width: 2.4em;
 }
 
 .center-content {
@@ -52,12 +68,51 @@ ul {
     background-color: #748bdb;
 }
 
+.backgrownd-white {
+    background-color: white;
+}
+
 .backgrownd-dark-grey {
     background-color: #222629;
 }
 
+.backgrownd-bright-blue {
+    background-color: #255ce8;
+}
+
+.backgrownd-light-grey {
+    background-color: #f5f5f5;
+}
+
+.grey-wave {
+    fill: #f5f5f5;
+}
+
+.img-down-reflex {
+    -webkit-transform: scaleY(-1);
+}
+
+#ready {
+    background-image: url(../img/stars.svg);
+    height: 49px;
+    width: 531px;
+    
+}
+ 
+.fit {
+    width: 100%;
+    height: 40px;
+}
+
+#hero-section {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 500px;
+}
+
 /*
 __________COLORS___________
+light-grey         #f5f5f5
 dark               #050505
 dark-grey          #222629
 bright-blue        #255ce8
@@ -81,16 +136,25 @@ h4 {
     color: #748bdb;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 h2 {
     color: #748bdb;
 }
 
-.center-text {
-    text-align: center; 
+h1 {
+    font-size: 2.5em;
 }
 
-.txt-widt {
-    width: 40%;
+#nav-list {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+     
 }
 
 /* buttons_______________________________________________________________ */
@@ -101,8 +165,9 @@ tarnished-purple   #748bdb
 */
 
 .button {
-    padding: 10px;
-    border-radius: 10px; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none; 
 }
 
 .white-button {
@@ -121,16 +186,26 @@ tarnished-purple   #748bdb
 }
 
 /* flexing_______________________________________________________________ */
-.column-flex {
-    flex-direction: column;
-}
+
 .flexing {
     display: flex;
     align-items: center;
 }
 
+.wrap-flex {
+    flex-wrap: wrap;
+}
+
 .spa-bet-flex {
     justify-content: space-between;
+}
+
+.align-center-flex {
+    align-content: center;
+}
+
+.fle-sta-flex {
+    align-items: flex-start;
 }
 
 .fle-sta-flex {
@@ -141,7 +216,21 @@ tarnished-purple   #748bdb
     justify-content: center;
 }
 
+.column-flex {
+    flex-direction: column;
+}
+
 .row-rev-flex {
     flex-direction: row-reverse;
+}
+
+.column-rev-flex {
+    flex-direction: column-reverse;
+}
+
+.column-flex
+
+.center-align-flex {
+    align-items: center;
 }
 
