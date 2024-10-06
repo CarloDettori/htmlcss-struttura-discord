@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
+/* custom properties____________________________________________________ */
+
+
 /* assets________________________________________________________________ */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;/*whitney, helvetica newe*/
+    font-family: Whitney, Helvetica Newe, Helvetica, Arial, sans-serif; 
     color: #222629;
     background-color: #f5f5f5;  
 }
@@ -18,12 +21,13 @@ li>a {
     text-decoration: none;
 }
 .gap {
-    gap: 10px;
+    gap: 20px;
 }
 
-li, ul, div, section, nav, h1, h4, p, a, img {
-    padding: 5px;
+li, ul, div, section, nav, h1, p, a, img {
+    padding: 10px 0px;
 }
+
 
 .debug {
     border: 1px solid red;
@@ -35,7 +39,7 @@ li, ul, div, section, nav, h1, h4, p, a, img {
 }
 
 .small-container {
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -57,11 +61,25 @@ ul {
 
 #ita {
     max-width: 2.4em;
+    margin-right: 15px;
 }
 
 .center-content {
     place-content: center;
 
+}
+
+#socials {
+    gap: 20px;
+
+}
+
+#facebook {
+    object-position: 30px;
+}
+
+img.socials {
+    height: 2.5em;
 }
 
 .backgrownd-tarnish-purple {
@@ -84,6 +102,7 @@ ul {
     background-color: #f5f5f5;
 }
 
+
 .grey-wave {
     fill: #f5f5f5;
 }
@@ -92,16 +111,34 @@ ul {
     -webkit-transform: scaleY(-1);
 }
 
+#con5 {
+    margin-bottom: 80px;
+}
+
+#facebook {
+    : 10px;
+}
+
 #ready {
+    padding: 0px 80px;
     background-image: url(../img/stars.svg);
-    height: 49px;
-    width: 531px;
+    background-size: 100% auto;
+    line-height: 60px;
+    font-size: 2em;
+
     
+}
+
+#lang {
+    flex-grow: 1;
+}
+
+#bottom-links {
+    flex-grow: 4;
 }
 
 div>nav {
     border-top: 1px solid #748bdb;
-    margin-c
 }
 
 .fit {
@@ -111,7 +148,8 @@ div>nav {
 
 #hero-section {
     background-image: url("../img/jumbo.png");
-    background-size: cover;
+    background-size: auto  580px;
+    background-position: center;
     height: 500px;
 }
 
@@ -137,6 +175,10 @@ tarnished-purple   #748bdb
     color: #748bdb
 }
 
+p {
+    font-size: 120%;
+}
+
 h4 {
     color: #748bdb;
 }
@@ -150,7 +192,7 @@ h2 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 #nav-list {
@@ -190,6 +232,10 @@ tarnished-purple   #748bdb
     background-color: #748bdb;
 }
 
+a.mac-down::before {
+    content: ↓;  
+}
+
 /* flexing_______________________________________________________________ */
 
 .flexing {
@@ -199,6 +245,10 @@ tarnished-purple   #748bdb
 
 .wrap-flex {
     flex-wrap: wrap;
+}
+
+.no-horizontal-bar {
+    width: auto;
 }
 
 .spa-bet-flex {
@@ -217,6 +267,10 @@ tarnished-purple   #748bdb
     align-items: flex-start;
 }
 
+.fle-end-flex {
+    align-items: flex-end;
+}
+
 .center-flex {
     justify-content: center;
 }
@@ -233,9 +287,6 @@ tarnished-purple   #748bdb
     flex-direction: column-reverse;
 }
 
-.column-flex
-
 .center-align-flex {
     align-items: center;
 }
-
