@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+svg {
+    background-color: white;
+}
+
 /* custom properties____________________________________________________ */
 
 
@@ -24,10 +28,13 @@ li>a {
     gap: 20px;
 }
 
-li, ul, div, section, nav, h1, p, a, img {
-    padding: 10px 0px;
+ul, li, div, section, nav, h1, p, a, img {
+    padding: 10px 10px;
 }
 
+ul {
+    list-style-type: none;
+}
 
 .debug {
     border: 1px solid red;
@@ -39,12 +46,8 @@ li, ul, div, section, nav, h1, p, a, img {
 }
 
 .small-container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .img-widt {
@@ -102,7 +105,6 @@ img.socials {
     background-color: #f5f5f5;
 }
 
-
 .grey-wave {
     fill: #f5f5f5;
 }
@@ -115,9 +117,6 @@ img.socials {
     margin-bottom: 80px;
 }
 
-#facebook {
-    : 10px;
-}
 
 #ready {
     padding: 0px 80px;
@@ -148,9 +147,9 @@ div>nav {
 
 #hero-section {
     background-image: url("../img/jumbo.png");
-    background-size: auto  580px;
+    background-size: auto  750px;
     background-position: center;
-    height: 500px;
+    height: 600px;
 }
 
 /*
@@ -176,11 +175,13 @@ tarnished-purple   #748bdb
 }
 
 p {
-    font-size: 120%;
+    font-size: 130%;
+    line-height: 1.5em;
 }
 
 h4 {
     color: #748bdb;
+    padding: 0px 25px;
 }
 
 h3 {
@@ -192,7 +193,8 @@ h2 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    line-height: 1em;
 }
 
 #nav-list {
